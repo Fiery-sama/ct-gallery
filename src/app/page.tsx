@@ -3,13 +3,14 @@ import { Navbar } from '../components/Navbar';
 import { Gallery } from '../components/Gallery';
 import { MainFooter } from '../components/Bottom';
 // import { Vid_Gallery } from '@/components/Video_Gallery';
+import Image from 'next/image';
 
 export default function Home() {
-
+  
   return (
     <div className="container max-w-full bg-black bg-opacity-40 backdrop-blur-[8px]">
       <Navbar />
-      <div className='container mx-auto h-24'></div>
+          <div className='container mx-auto h-16'></div>
       <div className="md:grid md:grid-cols-2 place-items-center md:gap-4">
         <div className="container mx-auto px-12 py-6 text-center">
           <h1 className="md:text-9xl text-7xl font-style-dosis text-white">Gallery</h1>
@@ -18,14 +19,16 @@ export default function Home() {
           </div>
         </div>
         <div className="container mx-auto px-12 py-6">
-          <div className="header-imagebox-1"><img src="https://www.collegetips.in/images/header-image-1.jpg" className="header-image" /></div>
-          <div className="header-imagebox-2"><img src="https://www.collegetips.in/images/header-image-2.jpg" className="header-image" /></div>
-          <div className="header-imagebox-3"><img src="https://www.collegetips.in/images/header-image-3.jpg" className="header-image" /></div>
+          <div className="header-imagebox-1"><Image src="https://www.collegetips.in/images/header-image-1.jpg" alt="college-tips-1" width={300} height={300} className="header-image" /></div>
+          <div className="header-imagebox-2"><Image src="https://www.collegetips.in/images/header-image-2.jpg" alt="college-tips-2" width={300} height={300} className="header-image" /></div>
+          <div className="header-imagebox-3"><Image src="https://www.collegetips.in/images/header-image-3.jpg" alt="college-tips-3" width={300} height={300} className="header-image" /></div>
         </div>
       </div>
-      <section className="container mx-auto/">
+      <section className="container">
         <Gallery />
+        <div className='container mx-auto'>
         {/* <Vid_Gallery /> */}
+        </div>
       </section>
       <MainFooter />
     </div>
