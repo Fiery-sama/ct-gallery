@@ -1,0 +1,112 @@
+{
+    "gallery": [
+        {
+            "🔍 Who are We?": [
+                {
+                    "img": "about-us-1.jpg",
+                    "description": "CollegeTips is India's fastest growing youth-driven community, started in 2017"
+                },
+                {
+                    "img": "about-us-2.jpg",
+                    "description": "We offer career, work for the welfare of society, practical based programs to develop their skills, and connect with the people"
+                },
+                {
+                    "img": "about-us-3.jpg",
+                    "description": "You can find us in Bhopal, Indore, Mumbai, Pune, and Delhi"
+                },
+                {
+                    "img": "about-us-4.jpg",
+                    "description": "Also on Facebook, Instagram, Twitter, and YouTube"
+                }
+            ],
+
+            "🎓 Startup Vibes": [
+                {
+                    "img": "college-tips-1.jpg",
+                    "description": "Welcome to CollegeTips.in - India's Coolest Startup"
+                },
+                {
+                    "img": "college-tips-2.jpg",
+                    "description": "This is CollegeTips.in"
+                },
+                {
+                    "img": "college-tips-3.webp",
+                    "description": "Best place to boost your skills"
+                },
+                {
+                    "img": "college-tips-4.webp",
+                    "description": "We will help you find you the correct path"
+                },
+                {
+                    "img": "college-tips-5.webp",
+                    "description": "We are a family of content creators"
+                },
+                {
+                    "img": "college-tips-6.webp",
+                    "description": "We are really proud that with the help of around 200 teammates we've impacted more than 25 lakhs students' lives till now"
+                },
+                {
+                    "img": "college-tips-7.jpg",
+                    "description": "You are at the right place!"
+                }
+            ],
+
+            "👑 The Visionary": [
+                {
+                    "img": "founder-1.webp",
+                    "description": "Meet our Founder: Mr. Vipin Tripathi"
+                },
+                {
+                    "img": "founder-2.jpg",
+                    "description": "Founder's Message: We'll give you the most relatable content because we understand you. Just like Joey understands Chandler."
+                }
+            ],
+
+            "🏢 Behind the Scenes": [
+                {
+                    "img": "office-1.webp",
+                    "description": "Our community comprises members from a wide talent pool from all across the country."
+                },
+                {
+                    "img": "office-2.webp",
+                    "description": "CollegeTips.in is a place where we not just work, but create beautiful memories with a splash of fun."
+                },
+                {
+                    "img": "office-3.webp",
+                    "description": "We are a content creation company, with No Limits! and We are Perfect at it! You can do anything you want! because we think, everyone is creative in their own way."
+                },
+                {
+                    "img": "office-4.webp",
+                    "description": "Our offices are designed for increasing productivity and a fun vibe to go along."
+                }
+            ],
+
+            "🎤 Campus Chronicles": [
+                {
+                    "img": "seminar-1.jpg",
+                    "description": "Seminar 1"
+                },
+                {
+                    "img": "seminar-2.jpg",
+                    "description": "Seminar 2"
+                },
+                {
+                    "img": "seminar-3.jpg",
+                    "description": "Seminar 3"
+                },
+                {
+                    "img": "seminar-4.jpg",
+                    "description": "Seminar 4"
+                },
+                {
+                    "img": "seminar-5.jpg",
+                    "description": "Seminar 5"
+                },
+                {
+                    "img": "seminar-6.jpg",
+                    "description": "Seminar 6"
+                }
+            ]
+        }
+    ]
+}
