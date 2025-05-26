@@ -19,9 +19,9 @@ export default function Home() {
           </div>
         </div>
         <div className="container mx-auto px-12 py-6">
-          <div className="header-imagebox-1"><Image src="https://www.collegetips.in/images/header-image-1.jpg" alt="college-tips-1" width={300} height={300} className="header-image" /></div>
-          <div className="header-imagebox-2"><Image src="https://www.collegetips.in/images/header-image-2.jpg" alt="college-tips-2" width={300} height={300} className="header-image" /></div>
-          <div className="header-imagebox-3"><Image src="https://www.collegetips.in/images/header-image-3.jpg" alt="college-tips-3" width={300} height={300} className="header-image" /></div>
+          <div className="header-imagebox-1"><Image src="/header-image-1.webp" alt="college-tips-1" width={300} height={300} className="header-image" /></div>
+          <div className="header-imagebox-2"><Image src="/header-image-2.webp" alt="college-tips-2" width={300} height={300} className="header-image" /></div>
+          <div className="header-imagebox-3"><Image src="/header-image-3.webp" alt="college-tips-3" width={300} height={300} className="header-image" /></div>
         </div>
       </div>
       <section className="container">
