@@ -17,7 +17,7 @@ export const Gallery = () => {
 
   const allImages: GalleryItem[] = Object.entries(galleryData).flatMap(
     ([category, images]) =>
-      (images as any[]).map((item) => ({
+      (images as Omit<GalleryItem, "category">[]).map((item) => ({
         ...item,
         category,
       }))
@@ -166,5 +166,6 @@ export const Gallery = () => {
         )}
       </div>
     </>
+
   );
 };
